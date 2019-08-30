@@ -33,10 +33,10 @@
             this.txtUnicode = new System.Windows.Forms.TextBox();
             this.txtUnicodeHex = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rhtInput = new System.Windows.Forms.RichTextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.rhtInput = new System.Windows.Forms.RichTextBox();
             this.btnConvertToChar = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
@@ -94,6 +94,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "输入字符";
             // 
+            // rhtInput
+            // 
+            this.rhtInput.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rhtInput.Location = new System.Drawing.Point(3, 17);
+            this.rhtInput.Name = "rhtInput";
+            this.rhtInput.Size = new System.Drawing.Size(572, 30);
+            this.rhtInput.TabIndex = 6;
+            this.rhtInput.Text = "Unicode编码区";
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label2);
@@ -124,15 +133,6 @@
             this.label1.Size = new System.Drawing.Size(41, 12);
             this.label1.TabIndex = 4;
             this.label1.Text = "10进制";
-            // 
-            // rhtInput
-            // 
-            this.rhtInput.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rhtInput.Location = new System.Drawing.Point(3, 17);
-            this.rhtInput.Name = "rhtInput";
-            this.rhtInput.Size = new System.Drawing.Size(572, 30);
-            this.rhtInput.TabIndex = 6;
-            this.rhtInput.Text = "Unicode编码";
             // 
             // btnConvertToChar
             // 
