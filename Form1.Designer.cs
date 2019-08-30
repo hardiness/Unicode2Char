@@ -62,7 +62,7 @@
             this.txtGb2312.Name = "txtGb2312";
             this.txtGb2312.Size = new System.Drawing.Size(572, 90);
             this.txtGb2312.TabIndex = 1;
-            this.txtGb2312.Text = "Gb2312编码";
+            this.txtGb2312.Text = "Gb2312编码区";
             // 
             // txtUnicode
             // 
@@ -72,7 +72,7 @@
             this.txtUnicode.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtUnicode.Size = new System.Drawing.Size(283, 100);
             this.txtUnicode.TabIndex = 2;
-            this.txtUnicode.Text = "Gb2312编码";
+            this.txtUnicode.Text = "Gb2312编码区";
             // 
             // txtUnicodeHex
             // 
@@ -82,7 +82,7 @@
             this.txtUnicodeHex.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtUnicodeHex.Size = new System.Drawing.Size(276, 100);
             this.txtUnicodeHex.TabIndex = 3;
-            this.txtUnicodeHex.Text = "Gb2312编码";
+            this.txtUnicodeHex.Text = "Gb2312编码区";
             // 
             // groupBox1
             // 
